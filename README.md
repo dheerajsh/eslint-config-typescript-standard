@@ -1,16 +1,16 @@
 # ESLint and Prettier config
 
-Recommended ESLint and Prettier for typescript codebase project in PropertyGuru
+Recommended ESLint and Prettier for typescript codebase project
 
 ## Setup
 1. install package with your preferred package manager
-``` 
-npm install -D git+https://github.com/propertyguru/eslint-config-pg.git
+```
+npm i ts-eslint-config
 ```
 **OR**
 
 ```
-yarn add --dev git+https://github.com/propertyguru/eslint-config-pg.git
+yarn add ts-eslint-config
 ```
 
 
@@ -18,7 +18,7 @@ yarn add --dev git+https://github.com/propertyguru/eslint-config-pg.git
 ```
 {
   'extends': [
-    'pg'
+    'ts-eslint-config'
   ]
 }
 ```
