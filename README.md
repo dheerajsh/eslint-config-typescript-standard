@@ -5,12 +5,12 @@ Recommended ESLint and Prettier for typescript codebase project
 ## Setup
 1. install package with your preferred package manager
 ```
-npm i ts-eslint-config
+npm i eslint-config-typescript
 ```
 **OR**
 
 ```
-yarn add ts-eslint-config
+yarn add eslint-config-typescript
 ```
 
 
@@ -18,7 +18,7 @@ yarn add ts-eslint-config
 ```
 {
   'extends': [
-    'ts-eslint-config'
+    'typescript'
   ]
 }
 ```
